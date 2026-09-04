@@ -19,6 +19,12 @@ const CONFIG = {
   // Each entry becomes one "browser window" card in the Client Work section.
   clientSites: [
     {
+      name: "Ghana Trotro Transit Mobile App",
+      url: "gtt.nxnx.tech",
+      description: "Ghana's first public transport app.",
+      sample: true,
+    },
+    {
       name: "The Outback Hotel",
       url: "theoutbackhotelgh.com",
       description: "Online booking Hotel websute for The Outbac Hotel",
@@ -30,18 +36,12 @@ const CONFIG = {
       description: "Beta version of RM Store. Simple online custom clothing shop.",
       sample: true,
     },
-    {
-      name: "Ghana Trotro Transit Mobile App",
-      url: "gtt.nxnx.tech",
-      description: "Ghana's first public transport app.",
-      sample: false,
-    },
   ],
 
   contact: [
     { label: "Email", value: "nananketia07@gmail.com", href: "mailto:nananketia07@gmail.com" },
     { label: "Phone", value: "+233 20 915 6811", href: "tel:+233209156811" },
-    { label: "Phone (alt)", value: "+233 20 915 6822", href: "tel:+233209156822" },
+    { label: "Phone (alt)", value: "+233 54 673 7798", href: "tel:+233546737798" },
     { label: "LinkedIn", value: "Nana Nketia", href: "https://www.linkedin.com/in/nana-nketia-905339212" },
     { label: "X / Twitter", value: "@aardmann", href: "https://x.com/aardmann" },
   ],
@@ -197,7 +197,7 @@ function renderClientSites() {
         <span class="browser-url">${site.url}</span>
       </div>
       <div class="browser-body">
-        ${site.sample ? '<span class="browser-tag">Sample - edit me</span>' : ""}
+        ${site.sample ? '<span class="browser-tag">/logo</span>' : ""}
         <h3>${site.name}</h3>
         <p>${site.description}</p>
         <a class="browser-link" href="https://${site.url}" target="_blank" rel="noopener noreferrer">Visit site →</a>

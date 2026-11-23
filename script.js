@@ -122,7 +122,7 @@ const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matc
 
 const terminalLines = [
   { prompt: "$ whoami", output: "Nketia Nana Yaw Junior" },
-  { prompt: "$ status", output: "Final-year ICT student - Takoradi Technical University" },
+  { prompt: "$ status", output: "Graduate - Takoradi Technical University" },
   { prompt: "$ building", output: "NxNx Tech - mobile apps, websites, custom software" },
   { prompt: "$ location", output: "Ghana" },
 ];

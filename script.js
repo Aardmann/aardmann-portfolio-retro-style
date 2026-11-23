@@ -41,7 +41,6 @@ const CONFIG = {
   contact: [
     { label: "Email", value: "nananketia07@gmail.com", href: "mailto:nananketia07@gmail.com" },
     { label: "Phone", value: "+233 20 915 6811", href: "tel:+233209156811" },
-    { label: "Phone (alt)", value: "+233 54 673 7798", href: "tel:+233546737798" },
     { label: "LinkedIn", value: "Nana Nketia", href: "https://www.linkedin.com/in/nana-nketia-905339212" },
     { label: "X / Twitter", value: "@aardmann", href: "https://x.com/aardmann" },
   ],
